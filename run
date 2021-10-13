@@ -1,7 +1,7 @@
 #!/bin/zsh
 
-g++ -g $1 -o $2 $3
+g++ $1.cpp -o $1 -std=c++11
 
-$2
+$1
 
-rm -rf $2
+rm -rf $1 $1.dSYM

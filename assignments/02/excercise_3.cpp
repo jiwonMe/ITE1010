@@ -1,7 +1,7 @@
 /**
  * @file excercise_3.cpp
  * @author Jiwon Park (park@jiwon.me)
- * @brief Homework 1
+ * @brief Homework 2
  * @version 0.1
  * @date 2021-10-03
  * 
