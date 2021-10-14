@@ -11,10 +11,9 @@
 
 #include <iostream>
 
-int frequency[26];
-
 void count_chars(char text[])
 {
+    static int frequency[26];
     if (text[0] == '\0')
     {
         for (size_t i = 0; i < 26; i++)

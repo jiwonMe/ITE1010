@@ -12,9 +12,8 @@
 #include <iostream>
 #include <algorithm>
 
-int frequency[26];
 
-void draw_plot()
+void draw_plot(int frequency[])
 {
     int max = *std::max_element(frequency, frequency + 26);
     for (int i = 0; i < max; i++)
@@ -34,9 +33,10 @@ void draw_plot()
 
 void count_chars(char text[])
 {
+    static int frequency[26];
     if (text[0] == '\0')
     {
-        draw_plot();
+        draw_plot(frequency);
         return;
     }
     int c = int(text[0]);
