@@ -10,8 +10,6 @@
  */
 
 #include <iostream>
-#include <algorithm>
-
 
 void draw_plot(int frequency[])
 {
